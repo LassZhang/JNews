@@ -1,5 +1,5 @@
 //
-//  BaseViewController.h
+//  TabBarButton.h
 //  JNews
 //
 //  Created by 王震 on 17/2/21.
@@ -8,7 +8,8 @@
 
 #import <UIKit/UIKit.h>
 
-@interface BaseViewController : UIViewController
-- (BOOL)canSwipBack;
-- (void)back;
+@interface TabBarButton : UIButton
+
+@property (nonatomic , strong) UITabBarItem *item;
+
 @end

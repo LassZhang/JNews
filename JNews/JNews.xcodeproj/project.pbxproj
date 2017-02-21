@@ -19,6 +19,13 @@
 		D75AA87D1E5BF2F2002B001A /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA87C1E5BF2F2002B001A /* MineViewController.m */; };
 		D75AA8801E5BF300002B001A /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA87F1E5BF300002B001A /* NewsViewController.m */; };
 		D75AA8831E5BF31D002B001A /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8821E5BF31D002B001A /* VideoViewController.m */; };
+		D75AA8861E5C0AA8002B001A /* TabBarViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8851E5C0AA8002B001A /* TabBarViewController.m */; };
+		D75AA8891E5C0C10002B001A /* TabBarButton.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8881E5C0C10002B001A /* TabBarButton.m */; };
+		D75AA88C1E5C0E5E002B001A /* TabBarView.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA88B1E5C0E5E002B001A /* TabBarView.m */; };
+		D75AA8901E5C1925002B001A /* NavigationViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA88F1E5C1925002B001A /* NavigationViewController.m */; };
+		D75AA8931E5C1EAA002B001A /* UIBarButtonItem+gyh.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8921E5C1EAA002B001A /* UIBarButtonItem+gyh.m */; };
+		D75AA8961E5C2388002B001A /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8951E5C2388002B001A /* NSString+Extension.m */; };
+		D75AA8991E5C240D002B001A /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8981E5C240D002B001A /* UIColor+Extension.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -63,6 +70,21 @@
 		D75AA87F1E5BF300002B001A /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
 		D75AA8811E5BF31D002B001A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
 		D75AA8821E5BF31D002B001A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
+		D75AA8841E5C0AA8002B001A /* TabBarViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarViewController.h; sourceTree = "<group>"; };
+		D75AA8851E5C0AA8002B001A /* TabBarViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarViewController.m; sourceTree = "<group>"; };
+		D75AA8871E5C0C10002B001A /* TabBarButton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarButton.h; sourceTree = "<group>"; };
+		D75AA8881E5C0C10002B001A /* TabBarButton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarButton.m; sourceTree = "<group>"; };
+		D75AA88A1E5C0E5E002B001A /* TabBarView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TabBarView.h; sourceTree = "<group>"; };
+		D75AA88B1E5C0E5E002B001A /* TabBarView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TabBarView.m; sourceTree = "<group>"; };
+		D75AA88D1E5C152A002B001A /* SNPublicDefine.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SNPublicDefine.h; sourceTree = "<group>"; };
+		D75AA88E1E5C1925002B001A /* NavigationViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavigationViewController.h; sourceTree = "<group>"; };
+		D75AA88F1E5C1925002B001A /* NavigationViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavigationViewController.m; sourceTree = "<group>"; };
+		D75AA8911E5C1EAA002B001A /* UIBarButtonItem+gyh.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIBarButtonItem+gyh.h"; sourceTree = "<group>"; };
+		D75AA8921E5C1EAA002B001A /* UIBarButtonItem+gyh.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIBarButtonItem+gyh.m"; sourceTree = "<group>"; };
+		D75AA8941E5C2388002B001A /* NSString+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "NSString+Extension.h"; sourceTree = "<group>"; };
+		D75AA8951E5C2388002B001A /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
+		D75AA8971E5C240D002B001A /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
+		D75AA8981E5C240D002B001A /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -293,6 +315,12 @@
 		D75AA85F1E5BF111002B001A /* Category */ = {
 			isa = PBXGroup;
 			children = (
+				D75AA8971E5C240D002B001A /* UIColor+Extension.h */,
+				D75AA8981E5C240D002B001A /* UIColor+Extension.m */,
+				D75AA8941E5C2388002B001A /* NSString+Extension.h */,
+				D75AA8951E5C2388002B001A /* NSString+Extension.m */,
+				D75AA8911E5C1EAA002B001A /* UIBarButtonItem+gyh.h */,
+				D75AA8921E5C1EAA002B001A /* UIBarButtonItem+gyh.m */,
 			);
 			path = Category;
 			sourceTree = "<group>";
@@ -307,6 +335,7 @@
 		D75AA8611E5BF111002B001A /* Config */ = {
 			isa = PBXGroup;
 			children = (
+				D75AA88D1E5C152A002B001A /* SNPublicDefine.h */,
 			);
 			path = Config;
 			sourceTree = "<group>";
@@ -391,6 +420,10 @@
 				D75AA81A1E5BEDF4002B001A /* AppDelegate.m */,
 				D75AA8751E5BF2CE002B001A /* BaseViewController.h */,
 				D75AA8761E5BF2CE002B001A /* BaseViewController.m */,
+				D75AA8841E5C0AA8002B001A /* TabBarViewController.h */,
+				D75AA8851E5C0AA8002B001A /* TabBarViewController.m */,
+				D75AA88E1E5C1925002B001A /* NavigationViewController.h */,
+				D75AA88F1E5C1925002B001A /* NavigationViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -398,6 +431,8 @@
 		D75AA8721E5BF2A9002B001A /* Model */ = {
 			isa = PBXGroup;
 			children = (
+				D75AA8871E5C0C10002B001A /* TabBarButton.h */,
+				D75AA8881E5C0C10002B001A /* TabBarButton.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -412,6 +447,8 @@
 		D75AA8741E5BF2A9002B001A /* View */ = {
 			isa = PBXGroup;
 			children = (
+				D75AA88A1E5C0E5E002B001A /* TabBarView.h */,
+				D75AA88B1E5C0E5E002B001A /* TabBarView.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -546,13 +583,20 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75AA88C1E5C0E5E002B001A /* TabBarView.m in Sources */,
+				D75AA8931E5C1EAA002B001A /* UIBarButtonItem+gyh.m in Sources */,
 				D75AA81B1E5BEDF4002B001A /* AppDelegate.m in Sources */,
+				D75AA8991E5C240D002B001A /* UIColor+Extension.m in Sources */,
 				D75AA8771E5BF2CE002B001A /* BaseViewController.m in Sources */,
 				D75AA87D1E5BF2F2002B001A /* MineViewController.m in Sources */,
 				D75AA8801E5BF300002B001A /* NewsViewController.m in Sources */,
+				D75AA8961E5C2388002B001A /* NSString+Extension.m in Sources */,
+				D75AA8891E5C0C10002B001A /* TabBarButton.m in Sources */,
+				D75AA8861E5C0AA8002B001A /* TabBarViewController.m in Sources */,
 				D75AA8831E5BF31D002B001A /* VideoViewController.m in Sources */,
 				D75AA87A1E5BF2E4002B001A /* LiveViewController.m in Sources */,
 				D75AA8181E5BEDF4002B001A /* main.m in Sources */,
+				D75AA8901E5C1925002B001A /* NavigationViewController.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
