@@ -9,12 +9,16 @@
 /* Begin PBXBuildFile section */
 		D75AA8181E5BEDF4002B001A /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8171E5BEDF4002B001A /* main.m */; };
 		D75AA81B1E5BEDF4002B001A /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA81A1E5BEDF4002B001A /* AppDelegate.m */; };
-		D75AA81E1E5BEDF4002B001A /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA81D1E5BEDF4002B001A /* ViewController.m */; };
 		D75AA8211E5BEDF4002B001A /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75AA81F1E5BEDF4002B001A /* Main.storyboard */; };
 		D75AA8231E5BEDF4002B001A /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D75AA8221E5BEDF4002B001A /* Assets.xcassets */; };
 		D75AA8261E5BEDF4002B001A /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D75AA8241E5BEDF4002B001A /* LaunchScreen.storyboard */; };
 		D75AA8311E5BEDF4002B001A /* JNewsTests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8301E5BEDF4002B001A /* JNewsTests.m */; };
 		D75AA83C1E5BEDF4002B001A /* JNewsUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA83B1E5BEDF4002B001A /* JNewsUITests.m */; };
+		D75AA8771E5BF2CE002B001A /* BaseViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8761E5BF2CE002B001A /* BaseViewController.m */; };
+		D75AA87A1E5BF2E4002B001A /* LiveViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8791E5BF2E4002B001A /* LiveViewController.m */; };
+		D75AA87D1E5BF2F2002B001A /* MineViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA87C1E5BF2F2002B001A /* MineViewController.m */; };
+		D75AA8801E5BF300002B001A /* NewsViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA87F1E5BF300002B001A /* NewsViewController.m */; };
+		D75AA8831E5BF31D002B001A /* VideoViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8821E5BF31D002B001A /* VideoViewController.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -37,10 +41,8 @@
 /* Begin PBXFileReference section */
 		D75AA8131E5BEDF4002B001A /* JNews.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = JNews.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75AA8171E5BEDF4002B001A /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		D75AA8191E5BEDF4002B001A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		D75AA81A1E5BEDF4002B001A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		D75AA81C1E5BEDF4002B001A /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		D75AA81D1E5BEDF4002B001A /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		D75AA8191E5BEDF4002B001A /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; name = AppDelegate.h; path = ../../AppDelegate.h; sourceTree = "<group>"; };
+		D75AA81A1E5BEDF4002B001A /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; name = AppDelegate.m; path = ../../AppDelegate.m; sourceTree = "<group>"; };
 		D75AA8201E5BEDF4002B001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		D75AA8221E5BEDF4002B001A /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D75AA8251E5BEDF4002B001A /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +53,16 @@
 		D75AA8371E5BEDF4002B001A /* JNewsUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = JNewsUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		D75AA83B1E5BEDF4002B001A /* JNewsUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = JNewsUITests.m; sourceTree = "<group>"; };
 		D75AA83D1E5BEDF4002B001A /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D75AA8751E5BF2CE002B001A /* BaseViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = BaseViewController.h; sourceTree = "<group>"; };
+		D75AA8761E5BF2CE002B001A /* BaseViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = BaseViewController.m; sourceTree = "<group>"; };
+		D75AA8781E5BF2E4002B001A /* LiveViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LiveViewController.h; sourceTree = "<group>"; };
+		D75AA8791E5BF2E4002B001A /* LiveViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LiveViewController.m; sourceTree = "<group>"; };
+		D75AA87B1E5BF2F2002B001A /* MineViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MineViewController.h; sourceTree = "<group>"; };
+		D75AA87C1E5BF2F2002B001A /* MineViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MineViewController.m; sourceTree = "<group>"; };
+		D75AA87E1E5BF300002B001A /* NewsViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsViewController.h; sourceTree = "<group>"; };
+		D75AA87F1E5BF300002B001A /* NewsViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NewsViewController.m; sourceTree = "<group>"; };
+		D75AA8811E5BF31D002B001A /* VideoViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = VideoViewController.h; sourceTree = "<group>"; };
+		D75AA8821E5BF31D002B001A /* VideoViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = VideoViewController.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,10 +113,12 @@
 		D75AA8151E5BEDF4002B001A /* JNews */ = {
 			isa = PBXGroup;
 			children = (
-				D75AA8191E5BEDF4002B001A /* AppDelegate.h */,
-				D75AA81A1E5BEDF4002B001A /* AppDelegate.m */,
-				D75AA81C1E5BEDF4002B001A /* ViewController.h */,
-				D75AA81D1E5BEDF4002B001A /* ViewController.m */,
+				D75AA8701E5BF2A9002B001A /* Base */,
+				D75AA8491E5BF111002B001A /* Live */,
+				D75AA8501E5BF111002B001A /* Mine */,
+				D75AA8571E5BF111002B001A /* News */,
+				D75AA8651E5BF111002B001A /* Video */,
+				D75AA85E1E5BF111002B001A /* Other */,
 				D75AA81F1E5BEDF4002B001A /* Main.storyboard */,
 				D75AA8221E5BEDF4002B001A /* Assets.xcassets */,
 				D75AA8241E5BEDF4002B001A /* LaunchScreen.storyboard */,
@@ -138,6 +152,268 @@
 				D75AA83D1E5BEDF4002B001A /* Info.plist */,
 			);
 			path = JNewsUITests;
+			sourceTree = "<group>";
+		};
+		D75AA8491E5BF111002B001A /* Live */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA84A1E5BF111002B001A /* Controller */,
+				D75AA84D1E5BF111002B001A /* Model */,
+				D75AA84E1E5BF111002B001A /* Resource */,
+				D75AA84F1E5BF111002B001A /* View */,
+			);
+			path = Live;
+			sourceTree = "<group>";
+		};
+		D75AA84A1E5BF111002B001A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA8781E5BF2E4002B001A /* LiveViewController.h */,
+				D75AA8791E5BF2E4002B001A /* LiveViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75AA84D1E5BF111002B001A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75AA84E1E5BF111002B001A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D75AA84F1E5BF111002B001A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75AA8501E5BF111002B001A /* Mine */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA8511E5BF111002B001A /* Controller */,
+				D75AA8541E5BF111002B001A /* Model */,
+				D75AA8551E5BF111002B001A /* Resource */,
+				D75AA8561E5BF111002B001A /* View */,
+			);
+			path = Mine;
+			sourceTree = "<group>";
+		};
+		D75AA8511E5BF111002B001A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA87B1E5BF2F2002B001A /* MineViewController.h */,
+				D75AA87C1E5BF2F2002B001A /* MineViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75AA8541E5BF111002B001A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75AA8551E5BF111002B001A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D75AA8561E5BF111002B001A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75AA8571E5BF111002B001A /* News */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA8581E5BF111002B001A /* Controller */,
+				D75AA85B1E5BF111002B001A /* Model */,
+				D75AA85C1E5BF111002B001A /* Resource */,
+				D75AA85D1E5BF111002B001A /* View */,
+			);
+			path = News;
+			sourceTree = "<group>";
+		};
+		D75AA8581E5BF111002B001A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA87E1E5BF300002B001A /* NewsViewController.h */,
+				D75AA87F1E5BF300002B001A /* NewsViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75AA85B1E5BF111002B001A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75AA85C1E5BF111002B001A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D75AA85D1E5BF111002B001A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75AA85E1E5BF111002B001A /* Other */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA85F1E5BF111002B001A /* Category */,
+				D75AA8601E5BF111002B001A /* CommonTools */,
+				D75AA8611E5BF111002B001A /* Config */,
+				D75AA8621E5BF111002B001A /* Resource */,
+				D75AA8631E5BF111002B001A /* SDK */,
+				D75AA8641E5BF111002B001A /* Third */,
+			);
+			path = Other;
+			sourceTree = "<group>";
+		};
+		D75AA85F1E5BF111002B001A /* Category */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Category;
+			sourceTree = "<group>";
+		};
+		D75AA8601E5BF111002B001A /* CommonTools */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = CommonTools;
+			sourceTree = "<group>";
+		};
+		D75AA8611E5BF111002B001A /* Config */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Config;
+			sourceTree = "<group>";
+		};
+		D75AA8621E5BF111002B001A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D75AA8631E5BF111002B001A /* SDK */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = SDK;
+			sourceTree = "<group>";
+		};
+		D75AA8641E5BF111002B001A /* Third */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Third;
+			sourceTree = "<group>";
+		};
+		D75AA8651E5BF111002B001A /* Video */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA8661E5BF111002B001A /* Controller */,
+				D75AA8691E5BF111002B001A /* Model */,
+				D75AA86A1E5BF111002B001A /* Resource */,
+				D75AA86B1E5BF111002B001A /* View */,
+			);
+			path = Video;
+			sourceTree = "<group>";
+		};
+		D75AA8661E5BF111002B001A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA8811E5BF31D002B001A /* VideoViewController.h */,
+				D75AA8821E5BF31D002B001A /* VideoViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75AA8691E5BF111002B001A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75AA86A1E5BF111002B001A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D75AA86B1E5BF111002B001A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		D75AA8701E5BF2A9002B001A /* Base */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA8711E5BF2A9002B001A /* Controller */,
+				D75AA8721E5BF2A9002B001A /* Model */,
+				D75AA8731E5BF2A9002B001A /* Resource */,
+				D75AA8741E5BF2A9002B001A /* View */,
+			);
+			path = Base;
+			sourceTree = "<group>";
+		};
+		D75AA8711E5BF2A9002B001A /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				D75AA8191E5BEDF4002B001A /* AppDelegate.h */,
+				D75AA81A1E5BEDF4002B001A /* AppDelegate.m */,
+				D75AA8751E5BF2CE002B001A /* BaseViewController.h */,
+				D75AA8761E5BF2CE002B001A /* BaseViewController.m */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		D75AA8721E5BF2A9002B001A /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		D75AA8731E5BF2A9002B001A /* Resource */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Resource;
+			sourceTree = "<group>";
+		};
+		D75AA8741E5BF2A9002B001A /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -270,8 +546,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				D75AA81E1E5BEDF4002B001A /* ViewController.m in Sources */,
 				D75AA81B1E5BEDF4002B001A /* AppDelegate.m in Sources */,
+				D75AA8771E5BF2CE002B001A /* BaseViewController.m in Sources */,
+				D75AA87D1E5BF2F2002B001A /* MineViewController.m in Sources */,
+				D75AA8801E5BF300002B001A /* NewsViewController.m in Sources */,
+				D75AA8831E5BF31D002B001A /* VideoViewController.m in Sources */,
+				D75AA87A1E5BF2E4002B001A /* LiveViewController.m in Sources */,
 				D75AA8181E5BEDF4002B001A /* main.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
