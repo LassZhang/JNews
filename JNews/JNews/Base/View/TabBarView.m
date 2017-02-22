@@ -23,18 +23,14 @@
     TabBarButton * button =[[TabBarButton alloc]init];
     [self addSubview:button];
     self.tabBarButton = button;
-    
     // 设置相关
     button.item = item;
-    
     //监听按钮点击
     [button addTarget:self action:@selector(buttonClick:) forControlEvents:UIControlEventTouchDown];
-    
     // 默认选中第一个按钮
     if (self.subviews.count == 1) {
         [self buttonClick:button];
     }
-    
 }
 - (void)selectIndex:(int)index{
     TabBarButton *btn = self.subviews[index];
@@ -51,7 +47,6 @@
     if (btn.tag == self.selectTabBarButton.tag) {
       [[NSNotificationCenter defaultCenter]postNotificationName:btn.titleLabel.text object:nil];
     }
-    
     self.selectTabBarButton.selected = NO;
     btn.selected = YES;
     self.selectTabBarButton = btn;
@@ -72,7 +67,6 @@
         CGFloat  buttonX = index * buttonW;
         
         button.frame = CGRectMake(buttonX, buttonY, buttonW, buttonH);
-        
         //设置按钮得tag值
         button.tag = index;
     }

@@ -39,22 +39,22 @@
         }
     }
 }
-///**
-// *  自己定义的tabbar在iOS8 中重叠的情况.就是原本已经移除的UITabBarButton再次出现
-// 在iOS8 是允许动态添加tabbaritem的
-// */
-//-(void)viewWillLayoutSubviews{
-//    
-//    [super viewWillLayoutSubviews];
-//    
-//    for (UIView *child in self.tabBar.subviews) {
-//        
-//        if ([child isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
-//            
-//            [child removeFromSuperview];
-//        }
-//    }
-//}
+/**
+ *  自己定义的tabbar在iOS8 中重叠的情况.就是原本已经移除的UITabBarButton再次出现
+ 在iOS8 是允许动态添加tabbaritem的
+ */
+-(void)viewWillLayoutSubviews{
+    
+    [super viewWillLayoutSubviews];
+    
+    for (UIView *child in self.tabBar.subviews) {
+        
+        if ([child isKindOfClass:NSClassFromString(@"UITabBarButton")]) {
+            
+            [child removeFromSuperview];
+        }
+    }
+}
 - (void)initTabBar{
     
     IMP_BLOCK_SELF(TabBarViewController);
@@ -63,6 +63,7 @@
      // 将系统的index传给自定义的TabbarView
     tabbar.btnSelectBlock = ^(NSInteger to){
         block_self.selectedIndex = to;
+        NSLog(@"点击了第%ld个TabBarButton",to+1);
     };
     [self.tabBar addSubview:tabbar];
     _tabbar = tabbar;

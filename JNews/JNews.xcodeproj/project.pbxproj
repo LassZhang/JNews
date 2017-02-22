@@ -26,6 +26,11 @@
 		D75AA8931E5C1EAA002B001A /* UIBarButtonItem+gyh.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8921E5C1EAA002B001A /* UIBarButtonItem+gyh.m */; };
 		D75AA8961E5C2388002B001A /* NSString+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8951E5C2388002B001A /* NSString+Extension.m */; };
 		D75AA8991E5C240D002B001A /* UIColor+Extension.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8981E5C240D002B001A /* UIColor+Extension.m */; };
+		D75AA89D1E5D2AA7002B001A /* NavTabBar.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA89C1E5D2AA7002B001A /* NavTabBar.m */; };
+		D75AA8A01E5D5D96002B001A /* SocietyViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA89F1E5D5D96002B001A /* SocietyViewController.m */; };
+		D75AA8A31E5D5DA0002B001A /* OthersViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8A21E5D5DA0002B001A /* OthersViewController.m */; };
+		D75AA8A81E5D675F002B001A /* YYFPSLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8A51E5D675F002B001A /* YYFPSLabel.m */; };
+		D75AA8A91E5D675F002B001A /* YYWeakProxy.m in Sources */ = {isa = PBXBuildFile; fileRef = D75AA8A71E5D675F002B001A /* YYWeakProxy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -85,6 +90,16 @@
 		D75AA8951E5C2388002B001A /* NSString+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "NSString+Extension.m"; sourceTree = "<group>"; };
 		D75AA8971E5C240D002B001A /* UIColor+Extension.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "UIColor+Extension.h"; sourceTree = "<group>"; };
 		D75AA8981E5C240D002B001A /* UIColor+Extension.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = "UIColor+Extension.m"; sourceTree = "<group>"; };
+		D75AA89B1E5D2AA7002B001A /* NavTabBar.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NavTabBar.h; sourceTree = "<group>"; };
+		D75AA89C1E5D2AA7002B001A /* NavTabBar.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NavTabBar.m; sourceTree = "<group>"; };
+		D75AA89E1E5D5D96002B001A /* SocietyViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SocietyViewController.h; sourceTree = "<group>"; };
+		D75AA89F1E5D5D96002B001A /* SocietyViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SocietyViewController.m; sourceTree = "<group>"; };
+		D75AA8A11E5D5DA0002B001A /* OthersViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = OthersViewController.h; sourceTree = "<group>"; };
+		D75AA8A21E5D5DA0002B001A /* OthersViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = OthersViewController.m; sourceTree = "<group>"; };
+		D75AA8A41E5D675F002B001A /* YYFPSLabel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYFPSLabel.h; sourceTree = "<group>"; };
+		D75AA8A51E5D675F002B001A /* YYFPSLabel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYFPSLabel.m; sourceTree = "<group>"; };
+		D75AA8A61E5D675F002B001A /* YYWeakProxy.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = YYWeakProxy.h; sourceTree = "<group>"; };
+		D75AA8A71E5D675F002B001A /* YYWeakProxy.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = YYWeakProxy.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,10 +151,10 @@
 			isa = PBXGroup;
 			children = (
 				D75AA8701E5BF2A9002B001A /* Base */,
-				D75AA8491E5BF111002B001A /* Live */,
-				D75AA8501E5BF111002B001A /* Mine */,
 				D75AA8571E5BF111002B001A /* News */,
 				D75AA8651E5BF111002B001A /* Video */,
+				D75AA8491E5BF111002B001A /* Live */,
+				D75AA8501E5BF111002B001A /* Mine */,
 				D75AA85E1E5BF111002B001A /* Other */,
 				D75AA81F1E5BEDF4002B001A /* Main.storyboard */,
 				D75AA8221E5BEDF4002B001A /* Assets.xcassets */,
@@ -274,6 +289,10 @@
 			children = (
 				D75AA87E1E5BF300002B001A /* NewsViewController.h */,
 				D75AA87F1E5BF300002B001A /* NewsViewController.m */,
+				D75AA89E1E5D5D96002B001A /* SocietyViewController.h */,
+				D75AA89F1E5D5D96002B001A /* SocietyViewController.m */,
+				D75AA8A11E5D5DA0002B001A /* OthersViewController.h */,
+				D75AA8A21E5D5DA0002B001A /* OthersViewController.m */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -328,6 +347,10 @@
 		D75AA8601E5BF111002B001A /* CommonTools */ = {
 			isa = PBXGroup;
 			children = (
+				D75AA8A41E5D675F002B001A /* YYFPSLabel.h */,
+				D75AA8A51E5D675F002B001A /* YYFPSLabel.m */,
+				D75AA8A61E5D675F002B001A /* YYWeakProxy.h */,
+				D75AA8A71E5D675F002B001A /* YYWeakProxy.m */,
 			);
 			path = CommonTools;
 			sourceTree = "<group>";
@@ -449,6 +472,8 @@
 			children = (
 				D75AA88A1E5C0E5E002B001A /* TabBarView.h */,
 				D75AA88B1E5C0E5E002B001A /* TabBarView.m */,
+				D75AA89B1E5D2AA7002B001A /* NavTabBar.h */,
+				D75AA89C1E5D2AA7002B001A /* NavTabBar.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -583,17 +608,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				D75AA8A81E5D675F002B001A /* YYFPSLabel.m in Sources */,
+				D75AA89D1E5D2AA7002B001A /* NavTabBar.m in Sources */,
+				D75AA8A01E5D5D96002B001A /* SocietyViewController.m in Sources */,
 				D75AA88C1E5C0E5E002B001A /* TabBarView.m in Sources */,
 				D75AA8931E5C1EAA002B001A /* UIBarButtonItem+gyh.m in Sources */,
 				D75AA81B1E5BEDF4002B001A /* AppDelegate.m in Sources */,
 				D75AA8991E5C240D002B001A /* UIColor+Extension.m in Sources */,
 				D75AA8771E5BF2CE002B001A /* BaseViewController.m in Sources */,
+				D75AA8A31E5D5DA0002B001A /* OthersViewController.m in Sources */,
 				D75AA87D1E5BF2F2002B001A /* MineViewController.m in Sources */,
 				D75AA8801E5BF300002B001A /* NewsViewController.m in Sources */,
 				D75AA8961E5C2388002B001A /* NSString+Extension.m in Sources */,
 				D75AA8891E5C0C10002B001A /* TabBarButton.m in Sources */,
 				D75AA8861E5C0AA8002B001A /* TabBarViewController.m in Sources */,
 				D75AA8831E5BF31D002B001A /* VideoViewController.m in Sources */,
+				D75AA8A91E5D675F002B001A /* YYWeakProxy.m in Sources */,
 				D75AA87A1E5BF2E4002B001A /* LiveViewController.m in Sources */,
 				D75AA8181E5BEDF4002B001A /* main.m in Sources */,
 				D75AA8901E5C1925002B001A /* NavigationViewController.m in Sources */,

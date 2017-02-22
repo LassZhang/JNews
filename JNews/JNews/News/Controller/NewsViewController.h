@@ -7,7 +7,14 @@
 //
 
 #import "BaseViewController.h"
+@class NavTabBar;
 
 @interface NewsViewController : BaseViewController
+@property (nonatomic, assign)   BOOL        scrollAnimation;            // Default value: NO
+@property (nonatomic, assign)   BOOL        mainViewBounces;            // Default value: NO
 
+@property (nonatomic, strong)NSArray *subViewControllers;
+
+@property (nonatomic, strong)UIColor  *navTabBarColor;
+@property (nonatomic, strong)UIColor  *navTabBarLineColor;
 @end

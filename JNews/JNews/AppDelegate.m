@@ -9,6 +9,8 @@
 #import "AppDelegate.h"
 #import "TabBarViewController.h"
 #import "NavigationViewController.h"
+#import "YYFPSLabel.h"
+
 
 @interface AppDelegate ()
 @property (nonatomic , strong) TabBarViewController *tabbarMain;
