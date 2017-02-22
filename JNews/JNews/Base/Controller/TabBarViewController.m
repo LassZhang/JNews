@@ -14,6 +14,7 @@
 #import "VideoViewController.h"
 #import "LiveViewController.h"
 #import "MineViewController.h"
+#import "YYFPSLabel.h"
 
 
 @interface TabBarViewController ()
@@ -28,9 +29,16 @@
     [super viewDidLoad];
     [self initTabBar];
     [self initController];
+    [self showFPSValue];
     // 主题变化通知
+   
 }
-
+- (void)showFPSValue{
+    YYFPSLabel * la = [[YYFPSLabel alloc]initWithFrame:CGRectMake(80, 0, 60, 20)];
+    la.backgroundColor = [UIColor blueColor];
+    [self.view addSubview:la];
+    [self.view bringSubviewToFront:la];
+}
 - (void)viewWillAppear:(BOOL)animated{
     [super viewWillAppear:animated];
     for (UIView * child in self.tabBar.subviews) {

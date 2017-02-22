@@ -7,7 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
-
+#import "UIImageView+WebCache.h"
+#import "SDCycleScrollView.h"
+#import "MJExtension.h"
+#import "AFNetworking.h"
+#import "NetManger.h"
 @interface BaseViewController : UIViewController
 - (BOOL)canSwipBack;
 - (void)back;

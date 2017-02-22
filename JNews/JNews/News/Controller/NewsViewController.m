@@ -10,6 +10,7 @@
 #import "NavTabBar.h"
 #import "SocietyViewController.h"
 #import "OthersViewController.h"
+#import "YYFPSLabel.h"
 @interface NewsViewController ()<NavTabBarDelegate,UIScrollViewDelegate>
 {
     NSInteger        _currentIndex;
