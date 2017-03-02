@@ -16,7 +16,6 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    
     self.title = @"Others";
     self.view.backgroundColor =[ UIColor purpleColor];
     

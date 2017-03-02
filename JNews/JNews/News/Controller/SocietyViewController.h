@@ -7,7 +7,6 @@
 //
 
 #import "BaseViewController.h"
-
 @interface SocietyViewController : BaseViewController
 
 @end

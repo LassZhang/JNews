@@ -12,6 +12,11 @@
 #import "MJExtension.h"
 #import "AFNetworking.h"
 #import "NetManger.h"
+#import "SNPublicDefine.h"
+#import "MJRefresh.h"
+#import "MBProgressHUD+Extion.h"
+#import "ZFPlayer.h"
+#import "WZRefreshGifHeader.h"
 @interface BaseViewController : UIViewController
 - (BOOL)canSwipBack;
 - (void)back;

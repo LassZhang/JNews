@@ -348,6 +348,14 @@ NSString * const ID = @"cycleCell";
     [[NSRunLoop mainRunLoop] addTimer:timer forMode:NSRunLoopCommonModes];
 }
 
+- (void)startScroll{
+    [self setupTimer];
+}
+- (void)stopScroll{
+    if (_timer) {
+        [_timer invalidate];
+    }
+}
 - (void)invalidateTimer
 {
     [_timer invalidate];
@@ -402,8 +410,6 @@ NSString * const ID = @"cycleCell";
         self.pageDotImage = self.pageDotImage;
     }
 }
-
-
 - (void)automaticScroll
 {
     if (0 == _totalItemsCount) return;

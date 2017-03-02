@@ -178,5 +178,6 @@ return __singleton__; \
 #define COLORNUMBER @"#333333"
 #define COLORTABBAR @"#232f41"
 
+
 #endif /* SNPublicDefine_h */
 

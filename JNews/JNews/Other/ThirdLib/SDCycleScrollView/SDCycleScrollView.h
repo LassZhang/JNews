@@ -75,7 +75,8 @@ typedef enum {
 /** 本地图片轮播初始化方式2,infiniteLoop:是否无限循环 */
 + (instancetype)cycleScrollViewWithFrame:(CGRect)frame shouldInfiniteLoop:(BOOL)infiniteLoop imageNamesGroup:(NSArray *)imageNamesGroup;
 
-
+- (void)startScroll;
+- (void)stopScroll;
 //////////////////////  数据源接口  //////////////////////
 
 /** 网络图片 url string 数组 */

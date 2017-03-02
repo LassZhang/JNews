@@ -58,10 +58,8 @@
         viewController.hidesBottomBarWhenPushed = YES;
         viewController.navigationItem.leftBarButtonItem = [UIBarButtonItem ItemWithIcon:@"navigationbar_back_os7" highIcon:nil target:self action:@selector(back)];
     }
-    
     if ([self respondsToSelector:@selector(interactivePopGestureRecognizer)])
         self.interactivePopGestureRecognizer.enabled = NO;
-    
     [super pushViewController:viewController animated:animated];
 }
 
