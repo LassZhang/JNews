@@ -129,6 +129,8 @@
     self.lineV.frame = _videodataframe.lineVF;
     
 }
+
+
 //时间转换
 - (NSString *)convertTime:(CGFloat)second{
     

@@ -9,5 +9,6 @@
 #import "BaseViewController.h"
 
 @interface ClassViewController : BaseViewController
+@property (nonatomic , copy) NSString *url;
 
 @end

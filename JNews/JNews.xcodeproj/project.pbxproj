@@ -136,6 +136,9 @@
 		D775008C1E5FC473001A7643 /* UIView+MJExtension.m in Sources */ = {isa = PBXBuildFile; fileRef = D77500781E5FC473001A7643 /* UIView+MJExtension.m */; };
 		D775008F1E5FC591001A7643 /* WZRefreshGifHeader.m in Sources */ = {isa = PBXBuildFile; fileRef = D775008E1E5FC591001A7643 /* WZRefreshGifHeader.m */; };
 		D7D826D21E67AE650018C2C3 /* WZPlayer.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D826D11E67AE650018C2C3 /* WZPlayer.m */; };
+		D7D826DB1E67CAC60018C2C3 /* ZVideoData.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D826DA1E67CAC60018C2C3 /* ZVideoData.m */; };
+		D7D826DE1E67CC740018C2C3 /* ZVideoCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D826DD1E67CC740018C2C3 /* ZVideoCell.m */; };
+		D7D826E41E68095E0018C2C3 /* ZPlayerModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7D826E31E68095E0018C2C3 /* ZPlayerModel.m */; };
 		D7DA269D1E5FCD4A005CFE59 /* DataModel.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DA269C1E5FCD4A005CFE59 /* DataModel.m */; };
 		D7DA26A01E5FD1A9005CFE59 /* NewsCell.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DA269F1E5FD1A9005CFE59 /* NewsCell.m */; };
 		D7DA26A31E5FD374005CFE59 /* UIView+Frame.m in Sources */ = {isa = PBXBuildFile; fileRef = D7DA26A21E5FD374005CFE59 /* UIView+Frame.m */; };
@@ -422,6 +425,12 @@
 		D775008E1E5FC591001A7643 /* WZRefreshGifHeader.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZRefreshGifHeader.m; sourceTree = "<group>"; };
 		D7D826D01E67AE650018C2C3 /* WZPlayer.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WZPlayer.h; sourceTree = "<group>"; };
 		D7D826D11E67AE650018C2C3 /* WZPlayer.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WZPlayer.m; sourceTree = "<group>"; };
+		D7D826D91E67CAC60018C2C3 /* ZVideoData.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVideoData.h; sourceTree = "<group>"; };
+		D7D826DA1E67CAC60018C2C3 /* ZVideoData.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVideoData.m; sourceTree = "<group>"; };
+		D7D826DC1E67CC740018C2C3 /* ZVideoCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZVideoCell.h; sourceTree = "<group>"; };
+		D7D826DD1E67CC740018C2C3 /* ZVideoCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZVideoCell.m; sourceTree = "<group>"; };
+		D7D826E21E68095E0018C2C3 /* ZPlayerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZPlayerModel.h; sourceTree = "<group>"; };
+		D7D826E31E68095E0018C2C3 /* ZPlayerModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZPlayerModel.m; sourceTree = "<group>"; };
 		D7DA269B1E5FCD4A005CFE59 /* DataModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DataModel.h; sourceTree = "<group>"; };
 		D7DA269C1E5FCD4A005CFE59 /* DataModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DataModel.m; sourceTree = "<group>"; };
 		D7DA269E1E5FD1A9005CFE59 /* NewsCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NewsCell.h; sourceTree = "<group>"; };
@@ -885,6 +894,10 @@
 				D753EDE81E66CECB00AD7EB1 /* VideoData.m */,
 				D753EDEA1E66CFD800AD7EB1 /* VideoFrameData.h */,
 				D753EDEB1E66CFD800AD7EB1 /* VideoFrameData.m */,
+				D7D826D91E67CAC60018C2C3 /* ZVideoData.h */,
+				D7D826DA1E67CAC60018C2C3 /* ZVideoData.m */,
+				D7D826E21E68095E0018C2C3 /* ZPlayerModel.h */,
+				D7D826E31E68095E0018C2C3 /* ZPlayerModel.m */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -906,6 +919,8 @@
 				D753EDEE1E66D23A00AD7EB1 /* VideoCell.m */,
 				D7D826D01E67AE650018C2C3 /* WZPlayer.h */,
 				D7D826D11E67AE650018C2C3 /* WZPlayer.m */,
+				D7D826DC1E67CC740018C2C3 /* ZVideoCell.h */,
+				D7D826DD1E67CC740018C2C3 /* ZVideoCell.m */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -1441,7 +1456,9 @@
 				D74CD5031E60198F007FBEBD /* GYHCircleLoadingView.m in Sources */,
 				D75AA9BC1E5D85EA002B001A /* SDWebImageDownloaderOperation.m in Sources */,
 				D75AA9BA1E5D85EA002B001A /* SDWebImageDecoder.m in Sources */,
+				D7D826DE1E67CC740018C2C3 /* ZVideoCell.m in Sources */,
 				D75AA9DD1E5D8672002B001A /* MJFoundation.m in Sources */,
+				D7D826DB1E67CAC60018C2C3 /* ZVideoData.m in Sources */,
 				D775007E1E5FC473001A7643 /* MJRefreshAutoGifFooter.m in Sources */,
 				D74CD5621E642123007FBEBD /* NSBundle+TZImagePicker.m in Sources */,
 				D753EDE61E66C38E00AD7EB1 /* ClassViewController.m in Sources */,
@@ -1471,6 +1488,7 @@
 				D753EDBA1E667C1300AD7EB1 /* ZFPlayerModel.m in Sources */,
 				D74CD5041E60198F007FBEBD /* GYHCircleProgressView.m in Sources */,
 				D75AA9E21E5D8672002B001A /* NSObject+MJCoding.m in Sources */,
+				D7D826E41E68095E0018C2C3 /* ZPlayerModel.m in Sources */,
 				D7DA26AA1E5FD50C005CFE59 /* BigImageCell.m in Sources */,
 				D775008A1E5FC473001A7643 /* UIScrollView+MJExtension.m in Sources */,
 				D75AA8861E5C0AA8002B001A /* TabBarViewController.m in Sources */,
@@ -1645,6 +1663,7 @@
 				DEVELOPMENT_TEAM = FFETRTA257;
 				GCC_C_LANGUAGE_STANDARD = gnu89;
 				INFOPLIST_FILE = JNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LassZhang.JNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";
@@ -1659,6 +1678,7 @@
 				DEVELOPMENT_TEAM = FFETRTA257;
 				GCC_C_LANGUAGE_STANDARD = gnu89;
 				INFOPLIST_FILE = JNews/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = com.LassZhang.JNews;
 				PRODUCT_NAME = "$(TARGET_NAME)";

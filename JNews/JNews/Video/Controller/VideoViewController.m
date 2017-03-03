@@ -19,6 +19,7 @@
 #import "VideoFrameData.h"
 #import "VideoCell.h"
 #import "WZPlayer.h"
+#import "ClassViewController.h"
 @interface VideoViewController ()<UIImagePickerControllerDelegate,UINavigationControllerDelegate,UITableViewDelegate,UITableViewDataSource>
 {
     UIImagePickerController *_imagePickerController; // 摄像或相册页面
@@ -103,6 +104,17 @@
     
     // 头视图
     CategoryView * view = [[CategoryView alloc]initWithFrame:CGRectZero];
+    
+    view.SelectBlock = ^(NSString*tag,NSString*title){
+        NSArray *arr = @[@"VAP4BFE3U",
+                         @"VAP4BFR16",
+                         @"VAP4BG6DL",
+                         @"VAP4BGTVD"];
+        ClassViewController *classVC = [[ClassViewController alloc]init];
+        classVC.url = arr[[tag intValue]];
+        classVC.title = title;
+        [block_self.navigationController pushViewController:classVC animated:YES];
+    };
     self.tableview.tableHeaderView = view;
 }
 
